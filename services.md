@@ -19,17 +19,7 @@ menu_order: 1
 
 ![A collection of post-it notes](/images/post-its.jpg)
 
-### title
+### Find out more
 
-jhbjhbvhbv
+I also have wide experience translating in these areas: book and editorial translation; travel and tourism; technical translation; luxury and cosmetics; oil industry. This is just a sample of the kind of texts I translate. For more information or if you did not find what you were looking for please write me an email to hello@mariacolell.com.
 
-<div class="row">
-  <div class="6u 12u(mobilep)">
-    <h3>Find out more</h3>
-    <p>I also have wide experience translating in these areas: book and editorial translation; travel and tourism; technical translation; luxury and cosmetics; oil industry. This is just a sample of the kind of texts I translate. For more information or if you did not find what you were looking for please write me an email to hello@mariacolell.com.</p>
-  </div>
-  <div class="6u 12u(mobilep)">
-    <h3>And another subheading</h3>
-    <p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
-  </div>
-</div>
