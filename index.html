@@ -1,88 +1,61 @@
 ---
-layout: default
+layout: index
 ---
-<!-- Banner -->
-<section id="banner">
-  <h2>Hi, I'm María.</h2>
-  <p>Need your document or website translated into Spanish?</p>
-  <ul class="actions">
-    <li><a href="#specializations" class="button">Tell me more</a></li>
-    <li><a href="#" class="button special">Get a quote</a></li>
-  </ul>
+
+<section class="box special">
+  <header class="major">
+    <h2>What can a professional translator<br>do for you and your business?</h2>
+    <p>Multiply your clients by reaching the Spanish speaking markets. Speak to your audience in a language they understand. Improve your online communication in Spanish.</p>
+  </header>
+  <span class="image featured"><img src="images/the-world-awaits.jpg" alt="" /></span>
 </section>
 
-<section id="main" class="container">
-  <section class="box special">
-    <header class="major">
-      <h2>What can a professional translator<br>do for you and your business?</h2>
-      <p>Multiply your clients by reaching the Spanish speaking markets. Speak to your audience in a language they understand. Improve your online communication in Spanish.</p>
-    </header>
-    <span class="image featured"><img src="images/the-world-awaits.jpg" alt="" /></span>
-  </section>
-
-  <section id="specializations" class="box special features">
-    <div class="features-row">
-      <section>
+<section id="specializations" class="box special features">
+  <div class="features-row">
+    <section>
+      <a href="/services/translation/">
         <span class="icon major fa-thumb-tack accent2"></span>
         <h3>Translation</h3>
         <p>High quality translation services in the following specializations: law, finance, business and publishing.</p>
-      </section>
-      <section>
+      </a>
+    </section>
+    <section>
+      <a href="/services/transcreation-marketing-copy/">
         <span class="icon major fa-lightbulb-o accent3"></span>
         <h3>Transcreation and marketing copy</h3>
         <p>Creative adaptation of your brand message preserving the original style, tone and emotional intent. </p>
-      </section>
-    </div>
-    <div class="features-row">
-      <section>
+      </a>
+    </section>
+  </div>
+  <div class="features-row">
+    <section>
+      <a href="/services/editing-proofreading/">
         <span class="icon major fa-pencil accent4"></span>
         <h3>Editing and proofreading</h3>
         <p>Make sure your texts are accurate, consistent, readable and grammatically perfect.</p>
-      </section>
-      <section>
+      </a>
+    </section>
+    <section>
+      <a href="/services/website-localization/">
         <span class="icon major fa-globe accent5"></span>
         <h3>Website Localization</h3>
         <p>Much more than normal translation; adapt your message to the target audience and gain clients from all over the globe.</p>
-      </section>
-    </div>
-  </section>
-
-  <div class="row">
-    <div class="6u 12u(narrower)">
-      <section class="box special">
-        <span class="image featured"><img src="images/night-camera-lens-map.jpg" alt="" /></span>
-        <h3>Localize your product</h3>
-        <p>Do you have a fantastic business idea and want to sell more? Find out why localizing your website is the best medium-term investment.</p>
-        <ul class="actions">
-          <li><a href="#" class="button alt">Learn More</a></li>
-        </ul>
-      </section>
-    </div>
-    <div class="6u 12u(narrower)">
-      <section class="box special">
-        <span class="image featured"><img src="images/post-its.jpg" alt="" /></span>
-        <h3>Copywriting: the power of words</h3>
-        <p>Fill your marketing content with fresh and engaging wording that will make your readers come back for more.</p>
-        <ul class="actions">
-          <li><a href="#" class="button alt">Learn More</a></li>
-        </ul>
-      </section>
-    </div>
+      </a>
+    </section>
   </div>
 </section>
 
-<!-- CTA -->
-<section id="cta">
-  <h2>Get a quote</h2>
-  <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
-  <form>
-    <div class="row uniform 50%">
-      <div class="8u 12u(mobilep)">
-        <input type="email" name="email" id="email" placeholder="Email Address" />
-      </div>
-      <div class="4u 12u(mobilep)">
-        <input type="submit" value="Sign Up" class="fit" />
-      </div>
+<section id="blogposts" class="row">
+  {% for post in site.posts %}
+    <div class="6u 12u(narrower)">
+      <section class="box special">
+        <a href="{{ post.url }}">
+          <span class="image featured"><img src="{{ post.image }}" alt="" /></span>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.intro }}</p>
+        </a>
+        <a href="{{ post.url }}" class="button alt">Learn More</a>
+      </section>
     </div>
-  </form>
+  {% endfor %}
 </section>

@@ -1,11 +1,15 @@
 <header id="header" class="alt">
-  <h1><a href="/">Spanish translation</a> by María Colell</h1>
+  {% if page.url == "/index.html" %}
+    <h1><a href="/">Spanish translation</a> by María Colell</h1>
+  {% else %}
+    <a href="/">« Home</a>
+  {% endif %}
   <nav id="nav">
     <ul>
       {% assign sorted_pages = site.pages | sort: "menu_order" %}
       {% for page in sorted_pages %}
-        {% if page.title %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% if page.title and page.menu_order %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>

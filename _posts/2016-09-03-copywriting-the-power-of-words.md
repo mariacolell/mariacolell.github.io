@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-10-11 12:54:50
-categories: jekyll update
+title: "Copywriting: the power of words"
+permalink: /blog/copywriting/
+date: 2016-09-03 12:54:50
+image: /images/post-its.jpg
+intro: Fill your marketing content with fresh and engaging wording that will make your readers come back for more.
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
