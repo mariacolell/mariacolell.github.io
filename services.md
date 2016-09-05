@@ -7,13 +7,13 @@ menu_order: 1
 
 ### I offer translation and localization services to individuals, public organizations, private companies and translation agencies in the following areas:
 
-- Specialized Translation: banking and financial translation; corporative and HR documentation; insurance policies; contracts and agreements; asset management and investment fund; legal documentation; localization of social trading and investment platforms.
+- Specialized Translation: legal and financial translation; banking; insurance; investment and social trading.
 
 - Audiovisual Translation: website localization; subtitling/captioning and synchronizing; video games translation.
 
-- Marketing/Advertising: banners; ads; blog posts; brochures; product descriptions; localization of e-commerce websites; content writing; transcreation, adaptation and cultural consultancy for the Spanish market;
+- Marketing/Advertising: banners and ads; brochures; product descriptions; localization and content writing of e-commerce websites and blog posts; transcreation, adaptation and cultural consultancy for the Spanish market.
 
-- Editing and proofreading: formatting; style; grammar/spelling; final quality check; essay and cv editing; cultural adaptation.
+- Editing and proofreading: formatting and style; grammar/spelling; final quality check; essay and cv editing.
 
 - Sworn/Certified Translation: I am a certified English into Spanish and Spanish into English translator appointed by the Spanish Ministry of Foreign Affairs with licence number 6684. If you would like to know more about this service please click here.
 
