@@ -23,7 +23,7 @@ Good! Sounds like my kind of project. Let’s brainstorm together!
 
 That’s a tricky question. Short answer would be ‘Yes, I can’. Long answer would be ‘I can, but it wouldn’t be good for you’. This fact will shed some light: as an average, a full-time translator translates about 2,000 – 3,000 words per day, depending on the nature of the text.
 
-### How much it will cost me?
+### How much will it cost me?
 
 That depends. Charges may apply if it’s urgent or it requires working throughout the weekend. Usually prices are calculated on a per word basis, but some specific jobs like transcreation, for example, are charged by the hour. Let's exchange some emails and discuss the fairest rate for you and me. (Did I mention that I love writing emails?)
 
