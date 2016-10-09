@@ -2,6 +2,7 @@
 layout: page
 title: Traducción jurada
 subtitle: Escríbeme un correo – Acepta el presupuesto – Recibe la traducción en tu domicilio
+excerpt: Traducciones juradas de inglés a español y de español a inglés. Encarga tu traducción con un solo clic y recíbela cómodamente en tu hogar.
 permalink: /servicios/traduccion-jurada/
 ---
 
