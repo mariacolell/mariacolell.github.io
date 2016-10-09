@@ -2,14 +2,14 @@
 layout: page
 title: Traducción jurada
 subtitle: Escríbeme un correo – Acepta el presupuesto – Recibe la traducción en tu domicilio
-permalink: /traduccion-jurada/
+permalink: /servicios/traduccion-jurada/
 ---
 
 Hoy en día muchos trámites en el extranjero exigen la presentación de traducciones oficiales en las que tiene que constar el sello oficial de un intérprete jurado. A diferencia de muchos trámites engorrosos, ahora puedes encargar tu traducción jurada con un solo clic y recibirla cómodamente en tu domicilio por correo postal.
 
 ## ¿Cómo funciona?
 
-El primer paso es escribirme un correo electrónico a hola@mariacolell.com y explicar qué tipo de documento tienes que traducir y para cuándo lo necesitas. Si me envías el documento escaneado podré responderte con un presupuesto definitivo y una fecha de entrega.
+El primer paso es escribirme un correo electrónico a [hola@mariacolell.com](hola@mariacolell.com) y explicar qué tipo de documento tienes que traducir y para cuándo lo necesitas. Si me envías el documento escaneado podré responderte con un presupuesto definitivo y una fecha de entrega.
 
 En cuanto aceptes estas dos condiciones me pondré a traducir.
 
@@ -28,6 +28,8 @@ Recuerda que…
 - Muchos documentos oficiales caducan al cabo de unos meses o incluso menos, por lo que es muy importante que tengas esto en cuenta a la hora de realizar tus trámites y de encargar la traducción.
 
 ¿Te queda alguna pregunta? Escríbeme un correo con todas tus dudas a hola@mariacolell.com y estaré encantada de resolverlas.
+
+![Sello traducción jurada](/images/certified-stamp.jpg)
 
 ## Algunos ejemplos de traducciones juradas
 
