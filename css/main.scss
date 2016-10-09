@@ -423,7 +423,7 @@
 	$box-padding: 3em;
 
 	.box {
-		background: #fff;
+		background: #f5f5f5;
 		border-radius: _size(border-radius);
 		box-shadow: 0 2px 0 0 _palette(border);
 		margin: 0 0 _size(element-margin) 0;
@@ -1908,6 +1908,24 @@
 
 	#banner {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/overlay.png"), url("../images/banner.jpg");
+	}
+
+	#main {
+		h3 {
+			line-height: 1.3em;
+		}
+
+		p, li {
+			font-size: 1.4em;
+		}
+
+		li p {
+			font-size: 1em;
+		}
+
+		li + li {
+			margin-top: 1em;
+		}
 	}
 
 	.checkmark-list {
