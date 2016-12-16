@@ -5,11 +5,41 @@
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  </head>
 
   <body class="landing">
     <div id="page-wrapper">
-      {% include header.html %}
+      <header id="header" class="alt">
+        {% if page.url == "/index.html" %}
+          <h1><a href="/">Spanish translation</a> by María Colell</h1>
+        {% else %}
+          <a href="/">« Home</a>
+        {% endif %}
+        <nav id="nav">
+          <ul>
+            {% assign sorted_pages = site.pages | sort: "menu_order" %}
+            {% for page in sorted_pages %}
+              {% if page.title and page.menu_order %}
+                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
 
       {{ content }}
 
@@ -28,7 +58,13 @@
         </form>
       </section>
 
-      {% include footer.html %}
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+          <a href="https://twitter.com/mariabcolell" class="icon fa-twitter"><span class="label">Twitter</span></a>
+          </li>
+        </ul>
+      </footer>
     </div>
 
     <script src="assets/js/jquery.min.js"></script>
